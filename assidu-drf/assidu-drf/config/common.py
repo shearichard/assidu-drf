@@ -51,6 +51,10 @@ class Common(Configuration):
     )
 
     # Postgres
+    # The format of the URL to be used is as follows
+    #
+    # postgres://USER:PASSWORD@HOST:PORT/NAME
+    #
     DATABASES = {
         'default': dj_database_url.config(
             default='postgres://postgres:@postgres:5432/postgres',
