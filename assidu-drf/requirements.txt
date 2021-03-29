@@ -52,7 +52,7 @@ psycopg2-binary==2.7.6.1
 ptyprocess==0.6.0
 pycodestyle==2.4.0
 pyflakes==2.0.0
-Pygments==2.2.0
+Pygments==2.7.4
 python-dateutil==2.7.5
 pytz==2018.7
 PyYAML==3.13
